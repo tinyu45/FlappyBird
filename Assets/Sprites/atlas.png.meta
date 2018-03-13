@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 5d7fdeeeeefd4cb4b86f37f6752e0e2b
-timeCreated: 1520860161
+timeCreated: 1520939965
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -8,6 +8,7 @@ TextureImporter:
     21300002: pipe_down
     21300004: pipe_up
     21300006: ground
+    21300008: bird
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -128,6 +129,19 @@ TextureImporter:
         y: 912
         width: 336
         height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bird
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 238
+        width: 34
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

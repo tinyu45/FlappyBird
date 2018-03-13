@@ -16,13 +16,16 @@ public class BGScroll : MonoBehaviour {
 
 	void FixedUpdate()
 	{
+		if (BirdFly.isOver)
+			return;
+		
 		if (count++ == 100) 
 		{
 			GeneratePipe ();
 			count = 0;
 		}
 		MeshRenderer render = GetComponent<MeshRenderer> ();
-		render.material.mainTextureOffset -= new Vector2 (Speed, 0);
+		render.material.mainTextureOffset += new Vector2 (Speed, 0);
 	}
 
 

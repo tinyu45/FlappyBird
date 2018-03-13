@@ -22,6 +22,9 @@ public class PipeMove : MonoBehaviour {
 	void FixedUpdate()
 	{
 		//水管向左移动
-		transform.position -= new Vector3 (Speed, 0, 0);
+		if(!BirdFly.isOver)
+		{
+			transform.position -= new Vector3 (Speed, 0, 0);
+		}
 	}
 }

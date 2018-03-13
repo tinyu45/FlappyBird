@@ -47,7 +47,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\BGScroll.cs" />
+     <Compile Include="Assets\Scripts\BirdFly.cs" />
      <Compile Include="Assets\Scripts\PipeMove.cs" />
+     <Compile Include="Assets\Scripts\UICotroller.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Unity 5.5.4/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
